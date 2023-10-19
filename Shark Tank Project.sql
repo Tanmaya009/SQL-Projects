@@ -109,8 +109,6 @@ LIMIT 1;
  order by count(*) 
  asc limit 1;
  
- #22 What is the indivisual among deal made by each shark.
-
  #23 Which start up got highest investment from each domain.
 SELECT Sector,
 MAX(Amount_Invested_lakhs) AS HighestInvestment
