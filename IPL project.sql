@@ -72,5 +72,5 @@ from ipl
 group by winner
 having count(*) >50;
 
-#13) Find out which team has won how many matches who first won the toss? 
+
 
