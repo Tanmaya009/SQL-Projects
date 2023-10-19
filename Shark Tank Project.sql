@@ -1,9 +1,5 @@
 select * from stank1;
 
-ALTER TABLE stank RENAME COLUMN ï»¿EpNo. TO Ep;
-select * from stank1;
-
-
  #1 Total no of episode that were telecasted in season1.
  select Ep.No, count(*) from stank1;
  
@@ -207,6 +203,4 @@ WHERE Male IS NOT NULL AND Female IS NOT NULL;
 FROM stank1
 WHERE Male IS NOT NULL AND Male NOT IN (SELECT Sector FROM stank1 WHERE brand = stank1.brand)
    OR Female IS NOT NULL AND Female NOT IN (SELECT Sector FROM stank1 WHERE brand = stank1.brand);
-
- #41-- Each of sharks howmany invested-( summary-sharkname, total invest amount, startup name)
 
